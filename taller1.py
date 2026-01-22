@@ -11,10 +11,8 @@ print(cadena, numberInt)
 print("-"*28)
 #Lista de paises
 paises = ["Panama", "Colombia","Mexico", "USA", "España", "Argentina"]
-#for para recorrer desde la posición 0 hasta la 5
-for pais in range(0,5):
-    #imprime la posición cada que se ejecuta
-    print(paises[pais])
+#se imprime paises en el rango de 0 a 5
+print(paises[0:5])
 
 print("-"*28)
 #Diccionario Clave : Valor
