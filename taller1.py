@@ -23,5 +23,6 @@ auto = {
     "año" : 2020,
     "color" : "Gris"
 }
+
 #imprime el valor de color
 print(auto["color"])
