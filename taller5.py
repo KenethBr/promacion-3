@@ -18,7 +18,7 @@ def notaFinal():
     for i in range(1, num):
         notaAcumulado += float(input(f"Ingrese el nota del estudiante {i}: "))
     num = num - 1
-    print(f"{notaAcumulado / num:.2f}")
+    print(f"El promedio del curso es: {notaAcumulado / num:.2f}")
 
 
 notaFinal()
